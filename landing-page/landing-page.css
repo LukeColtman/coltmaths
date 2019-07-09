@@ -70,7 +70,7 @@ h2 {
 
 .split.left {
     left:0;
-    background: url(//images/landing_page_2.jpg) center center no-repeat;
+    background: url(../images/landing_page_2.jpg) center center no-repeat;
     background-size:cover;
 }
 
@@ -84,7 +84,7 @@ h2 {
 
 .split.right {
     right:0;
-    background: url(//images/landing_page_1.jpg) center center no-repeat;
+    background: url(../images/landing_page_1.jpg) center center no-repeat;
     background-size: cover;
 }
 
