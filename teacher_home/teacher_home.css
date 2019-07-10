@@ -1,0 +1,37 @@
+.navbar {
+    display:grid;
+    grid-template-columns: 1fr auto;
+    background:rgba(12, 78, 163, 0.205);
+}
+
+.nav-left .navbar_links{
+    display:grid;
+    grid-template-columns: auto auto auto 1fr;
+    overflow:hidden;
+    grid-gap:30px;
+}
+
+.nav-right {
+    padding-right:30px;
+}
+
+li {
+    list-style:none;
+    
+}
+
+li a{
+    text-decoration:none;
+    color:black;
+}
+
+li a:hover {
+    color:grey;
+    background-color:yellow;
+}
+
+.search {
+    background-color:rgba(9, 6, 189, 0.2);
+    color:black;    
+    width:100%;
+}
