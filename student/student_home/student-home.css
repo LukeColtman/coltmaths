@@ -24,6 +24,7 @@ html body {
     display:grid;
     grid-template-columns: auto;
     grid-auto-flow:row;
+    border:5px solid  rgb(88, 88, 88);
 }
 
 .dropdown-button {
