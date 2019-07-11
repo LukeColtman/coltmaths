@@ -70,6 +70,7 @@ html body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     grid-gap:20px;
     align-items:center;
+    font-size:50px;
 }
 
 .exams-title h2:before, .exams-title h2:after{
@@ -83,18 +84,22 @@ html body {
     background:linear-gradient(to right, #000, #fff);
 }
 
-.title-2019 {
+.title-2018 {
     display:grid;
     grid-template-columns: auto 1fr;
 }
 
-.title-2019 h3 {
-    font-size:30px;
+h3 {
+    font-size:40px;
+}
+
+h4 {
+    font-size:25px;
 }
 
 .exams-select {
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     grid-gap:10px;
 }
 
@@ -119,6 +124,11 @@ html body {
 }
 
 .exam1 {
-    background: url(images/grade_1.jpg);
+    background: url(images/summer.jpg);
+    background-size:cover;
+}
+
+.exam2 {
+    background: url(images/winter_2.jpg);
     background-size:cover;
 }
