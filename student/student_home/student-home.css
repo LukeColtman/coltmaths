@@ -1,3 +1,7 @@
+html body {
+    background-color:rgba(0,0,0,0.2);
+}
+
 .dropdown {
     display:grid;
     justify-content:start;
@@ -47,4 +51,94 @@
 
 .dropdown-content > a:hover {
     background-color:#555;
+}
+
+.grades-title h2 {
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-gap:20px;
+    align-items:center;
+}
+
+.grades-title h2:before, .grades-title h2:after{
+    display:block;
+    content:'';
+    height:10px;
+    background:linear-gradient(to left, #000, #fff);
+}
+
+.grades-title h2:after {
+    background:linear-gradient(to right, #000, #fff);
+}
+
+.grade-select {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:10px;
+}
+
+.grade {
+    display:grid;
+    padding:80px;
+    text-align:center;
+    border:5px solid #555;
+    border-radius:10%;
+}
+
+.grade:hover {
+    transform:scale(1.2);
+    transition-duration: 0.3s;
+}
+
+.grade > a {
+    text-decoration:none;
+    color:black;
+    font-size:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grade1 {
+    background:url(images/grade_1.jpg);
+    background-size:cover;
+}
+
+.grade2 {
+    background:url(images/grade_2.jpg);
+    background-size:cover;
+}
+
+.grade3 {
+    background:url(images/grade_3.jpg);
+    background-size:cover;
+}
+
+.grade4 {
+    background:url(images/grade_4.jpg);
+    background-size:cover;
+}
+
+.grade5 {
+    background:url(images/grade_5.jpg);
+    background-size:cover;
+}
+
+.grade6 {
+    background:url(images/grade_6.jpg);
+    background-size:cover;
+}
+
+.grade7 {
+    background:url(images/grade_7.jpg);
+    background-size:cover;
+}
+
+.grade8 {
+    background:url(images/grade_8.jpg);
+    background-size:cover;
+}
+
+.grade9 {
+    background:url(images/grade_9.jpg);
+    background-size:cover;
 }
