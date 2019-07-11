@@ -1,5 +1,10 @@
 html body {
     background-color:rgba(0,0,0,0.2);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+    display:grid;
 }
 
 .dropdown {
@@ -52,6 +57,7 @@ html body {
 
 .dropdown-content > a:hover {
     background-color:#555;
+    transition-duration: 0.3s;
 }
 
 .grades-title h2 {
@@ -100,7 +106,7 @@ html body {
 }
 
 .grade1 {
-    background:url(images/grade_1.jpg);
+    background: url(images/grade_1.jpg);
     background-size:cover;
 }
 
@@ -143,3 +149,67 @@ html body {
     background:url(images/grade_9.jpg);
     background-size:cover;
 }
+
+.exams-title {
+    padding-top:30px;
+}
+.exams-title h2 {
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-gap:20px;
+    align-items:center;
+}
+
+.exams-title h2:before, .exams-title h2:after{
+    display:block;
+    content:'';
+    height:10px;
+    background:linear-gradient(to left, #000, #fff);
+}
+
+.exams-title h2:after {
+    background:linear-gradient(to right, #000, #fff);
+}
+
+.title-2019 {
+    display:grid;
+    grid-template-columns: auto 1fr;
+}
+
+.title-2019 h3 {
+    font-size:30px;
+}
+
+.exams-select {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:10px;
+}
+
+.exam {
+    display:grid;
+    padding:80px;
+    text-align:center;
+    border:5px solid #555;
+    border-radius:10%;
+}
+
+.exam:hover {
+    transform:scale(1.2);
+    transition-duration: 0.3s;
+}
+
+.exam > a {
+    text-decoration:none;
+    color:black;
+    font-size:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.exam1 {
+    background: url(images/grade_1.jpg);
+    background-size:cover;
+}
+
+
