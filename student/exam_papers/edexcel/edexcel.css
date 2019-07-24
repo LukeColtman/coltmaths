@@ -1,0 +1,45 @@
+.exams-title {
+    padding-top:30px;
+}
+.exams-title h2 {
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-gap:20px;
+    align-items:center;
+    font-size:50px;
+}
+
+.exams-title h2:before, .exams-title h2:after{
+    display:block;
+    content:'';
+    height:10px;
+    background:linear-gradient(to left, #000, #fff);
+}
+
+.exams-title h2:after {
+    background:linear-gradient(to right, #000, #fff);
+}
+
+table {
+    width:100%;
+    text-align:left;
+    border:2px solid #555;
+    border-collapse:collapse;
+}
+
+th, td {
+    padding:15px;
+}
+
+th {
+    font-size:30px;
+    background:black;
+    color:white;
+}
+
+td > a {
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+}
