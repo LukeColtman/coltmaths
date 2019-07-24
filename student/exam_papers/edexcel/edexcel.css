@@ -22,18 +22,19 @@
 }
 
 table {
-    width:100%;
+    width:47%;
     text-align:left;
     border:2px solid #555;
-    border-collapse:collapse;
+    border-collapse: collapse;
 }
 
-th, td {
+table, th, td {
     padding:15px;
+    border-bottom:1px solid #555;
 }
 
 th {
-    font-size:30px;
+    font-size:20px;
     background:black;
     color:white;
 }
@@ -41,5 +42,21 @@ th {
 td > a {
     color:black;
     text-decoration:none;
-    font-size:20px;
+    font-size:15px;
 }
+
+td > a:hover {
+    color:#444;
+}
+
+.higher_foundation {
+    text-align:center;
+}
+
+.tables {
+    display:flex;
+    border:none;
+    justify-content:space-around;
+}
+
+
