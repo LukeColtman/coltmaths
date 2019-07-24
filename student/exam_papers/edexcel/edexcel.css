@@ -57,9 +57,14 @@ td > a:hover {
     display:flex;
     border:none;
     justify-content:space-around;
-    padding-bottom:20px;
+    padding-bottom:40px;
 }
 
 tr:nth-child(even) {
     background-color:#f2f2f2;
+}
+
+.older_table {
+    width:100%;
+    padding:5px;
 }
