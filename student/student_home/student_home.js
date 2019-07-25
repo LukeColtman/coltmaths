@@ -16,8 +16,8 @@ function bidmasClick() {
     document.getElementById("number_bidmas").classList.toggle("show");
 }
 
-function decimalClick() {
-    document.getElementById("decimal_bidmas").classList.toggle("show");
+function decimalsClick() {
+    document.getElementById("number_decimals").classList.toggle("show");
 }
 
 function fractionsClick() {
@@ -36,28 +36,24 @@ function negativesClick() {
     document.getElementById("number_negatives").classList.toggle("show");
 }
 
-function placeValueClick() {
-    document.getElementById("number_placeValue").classList.toggle("show");
-}
-
 function percentagesClick() {
     document.getElementById("number_percentages").classList.toggle("show");
 }
 
-function powersOfTenClick() {
-    document.getElementById("number_powersOfTen").classList.toggle("show");
-}
-
 function numberPropertiesClick() {
-    document.getElementById("number_numberProperties").classList.toggle("show");
+    document.getElementById("number_numberproperties").classList.toggle("show");
 }
 
 function recurringDecimalsClick() {
-    document.getElementById("number_recurringDecimals").classList.toggle("show");
+    document.getElementById("number_recurringdecimals").classList.toggle("show");
+}
+
+function roundingAndEstimatingClick() {
+    document.getElementById("number_roundingandestimating").classList.toggle("show");
 }
 
 function standardFormClick() {
-    document.getElementById("number_standardForm").classList.toggle("show");
+    document.getElementById("number_standardform").classList.toggle("show");
 }
 
 function surdClick() {
@@ -73,12 +69,15 @@ function boundsClick() {
 }
 
 function usingCalculatorClick() {
-    document.getElementById("number_usingCalculator").classList.toggle("show");
+    document.getElementById("number_usingcalculator").classList.toggle("show");
 }
 
+
+
+
 window.onclick = function(event) {
-    if (!event.target.matches('.dropdown_topics_button')) {
-        var dropdowns = document.getElementsByClassName("dropdown_topics_content");
+    if (!event.target.matches('.dropdown_topics_button') && !event.target.mathches('.dropdown_content')) {
+        var dropdowns = document.getElementsByClassName("dropdown_content");
         var i;
         for (i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];
