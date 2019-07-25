@@ -110,6 +110,11 @@
     background:linear-gradient(to right, #000, #fff);
 }
 
+
+
+
+
+
 .dropdown_topics_button {
     border:none;
 }
@@ -119,32 +124,23 @@
     display:inline-block;
 }
 
-.dropdown_topics_content {
+.dropdown_content {
     display:none;
     position:absolute;
-
-    background-color:#f1f1f1;
     min-width:160px;
     box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index:1;
 }
 
-.dropdown_topics_content a {
+.dropdown_content a, .inner_button{
     text-decoration:none;
     color:white;
     padding:12px 16px;
-    display:block;
+    display:inline;
     background-color:rgba(0,0,0,0.6);
-    border:1px solid #fff;
     border-radius:5px;
-}
-
-.dropdown_topics_content a:hover {
-    background-color:#ccc;
-}
-
-.dropdown_topics_hover .dropdown_topics_button {
-    background-color: #3ff
+    width:100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .show {
@@ -156,9 +152,23 @@
     height:300px;
     width:400px;
     font-size:50px;
-    border:1px solid #fff;
     border-radius:10px;
     background: url(images/Number.jpg) no-repeat;
     background-size: cover;
     text-align:right;
 }
+
+.dropdown_content a {
+    text-decoration:none;
+    color:white;
+    padding:12px 16px;
+    display:block;
+    background-color:rgba(0,0,0,0.6);
+    border:1px solid white;
+    margin:1px;
+    border-radius:5px;
+    font-size:14px;
+}
+
+
+

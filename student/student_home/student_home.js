@@ -1,7 +1,14 @@
 function myFunction() {
     document.getElementById("dropdown_number").classList.toggle("show");
-  }
-  
+}
+
+function surdClick() {
+    document.getElementById("number_surds").classList.toggle("show");
+}
+
+function loiClick() {
+    document.getElementById("number_loi").classList.toggle("show");
+}
 
 window.onclick = function(event) {
     if (!event.target.matches('.dropdown_topics_button')) {
@@ -14,4 +21,4 @@ window.onclick = function(event) {
             }
         }
     }
-}
+    }
