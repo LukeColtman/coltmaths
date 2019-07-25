@@ -131,20 +131,34 @@
 
 .dropdown_topics_content a {
     text-decoration:none;
-    color:black;
+    color:white;
     padding:12px 16px;
     display:block;
+    background-color:rgba(0,0,0,0.6);
+    border:1px solid #fff;
+    border-radius:5px;
 }
 
 .dropdown_topics_content a:hover {
     background-color:#ccc;
 }
 
-.dropdown_topics:hover .dropdown_topics_content {
+.dropdown_topics_hover .dropdown_topics_button {
+    background-color: #3ff
+}
+
+.show {
     display:inline;
     float:right;
 }
 
-.dropdown_topics_hover .dropdown_topics_button {
-    background-color: #3ff
+.dropdown_topics_button {
+    height:300px;
+    width:400px;
+    font-size:50px;
+    border:1px solid #fff;
+    border-radius:10px;
+    background: url(images/Number.jpg) no-repeat;
+    background-size: cover;
+    text-align:right;
 }
