@@ -121,26 +121,28 @@
 
 .dropdown_topics {
     position:relative;
-    display:inline-block;
+    display:block;
+    padding:30px;
 }
 
 .dropdown_content {
     display:none;
     position:absolute;
     min-width:160px;
-    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index:1;
+    width:auto;
 }
 
 .dropdown_content a, .inner_button{
     text-decoration:none;
     color:white;
     padding:12px 16px;
-    display:inline;
+    display:block;
     background-color:rgba(0,0,0,0.6);
     border-radius:5px;
-    width:100%;
+    width:90%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:right;
 }
 
 .show {
@@ -169,6 +171,12 @@
     border-radius:5px;
     font-size:14px;
 }
+
+#dropdown_button_algebra {
+    background:url(images/Algebra.jpg);
+    background-size:cover;
+}
+
 
 
 

@@ -1,5 +1,9 @@
-function myFunction() {
+function numberDrop() {
     document.getElementById("dropdown_number").classList.toggle("show");
+}
+
+function algebraDrop() {
+    document.getElementById("dropdown_algebra").classList.toggle("show");
 }
 
 // Number click functions
@@ -71,6 +75,58 @@ function boundsClick() {
 function usingCalculatorClick() {
     document.getElementById("number_usingcalculator").classList.toggle("show");
 }
+
+
+// Algebra Click Function
+
+function algebraicManipulationClick() {
+    document.getElementById("algebra_algebraicmanipulation").classList.toggle("show");
+}
+
+function coordinatesClick() {
+    document.getElementById("algebra_coordinates").classList.toggle("show");
+}
+
+function equationsClick() {
+    document.getElementById("algebra_equations").classList.toggle("show");
+}
+
+function formulaeClick() {
+    document.getElementById("algebra_formulae").classList.toggle("show");
+}
+
+function functionMachinesClick() {
+    document.getElementById("algebra_functionmachines").classList.toggle("show");
+}
+
+function functionsClick() {
+    document.getElementById("algebra_functions").classList.toggle("show");
+}
+
+function graphsClick() {
+    document.getElementById("algebra_graphs").classList.toggle("show");
+}
+
+function indexLawsClick() {
+    document.getElementById("algebra_indexlaws").classList.toggle("show");
+}
+
+function inequalitiesClick() {
+    document.getElementById("algebra_inequalities").classList.toggle("show");
+}
+
+function numericalSolutionsAndIterationClick() {
+    document.getElementById("algebra_numericalsolutionsanditeration").classList.toggle("show");
+}
+
+function proofClick() {
+    document.getElementById("algebra_proof").classList.toggle("show");
+}
+
+function sequencesClick() {
+    document.getElementById("algebra_sequences").classList.toggle("show");
+}
+
 
 
 
